@@ -1,0 +1,525 @@
+.pactic_connect__modal_bg {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.4);
+	z-index: 1001;
+	opacity: 0;
+	visibility: hidden;
+	transition: all ease 0.3s;
+}
+
+.pactic_connect__modal_bg.opened {
+	visibility: visible;
+	opacity: 1;
+}
+
+.pactic_connect__modal {
+	position: fixed;
+	z-index: 1151;
+	left: 30px;
+	top: 30px;
+	bottom: 30px;
+	right: 30px;
+	background: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+	display: flex !important;
+	box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.5);
+	visibility: hidden;
+	opacity: 0;
+	transition: all ease 0.3s;
+}
+
+.pactic_connect__modal.opened {
+	visibility: visible;
+	opacity: 1; 
+	display: flex !important;
+}
+ 
+.admin-bar .pactic_connect__modal {
+	top: 62px;
+}
+
+.pactic_connect__modal_top {
+	background: #fff;
+	box-shadow: 0px 0 5px 0 rgba(0, 0, 0, 0.1);
+	position: absolute;
+	z-index: 1000;
+	display: block;
+	height: 80px;
+	width: 100%;
+	padding-right: 80px;
+	border-bottom: 1px solid #eee;
+}
+
+.pactic_connect__modal_middle {
+	position: absolute;
+	top: 80px;
+	bottom: 0px;
+	background: #fff;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: calc( 100% - 80px );
+}
+
+.pactic_connect__parcel_point_list_item_name {
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 8px;
+}
+
+.pactic_connect__parcel_point_list_item_address {
+	display: inline-block;
+}
+
+.pactic_connect__modal.dropdown {
+	left: calc( ( 100% - 800px ) / 2 );
+	right: calc( ( 100% - 800px ) / 2 );
+}
+
+.pactic_connect__modal_close {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	width: 50px;
+	height: 50px;
+	z-index: 1000;
+	background: #fff;
+	border: 2px solid #6d6d6d;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: all ease 0.3s;
+}
+
+.pactic_connect__modal_close:hover::after {
+	transform: rotate(135deg);
+}
+
+.pactic_connect__modal_close:hover::before {
+	transform: rotate(225deg);
+}
+
+.pactic_connect__modal_close::before {
+	position: relative;
+	content: ' ';
+	height: 30px;
+	width: 2px;
+	background-color: #333;
+	transform: rotate(45deg);
+	transition: all ease 0.3s;
+	display: block;
+	margin-left: 22px;
+	margin-top: 8px;
+}
+
+.pactic_connect__modal_close::after {
+	position: relative;
+	content: ' ';
+	height: 30px;
+	width: 2px;
+	background-color: #333;
+	transform: rotate(-45deg);
+	transition: all ease 0.3s;
+	display: block;
+	margin-left: 22px;
+	margin-top: -30px;
+}
+
+.pactic_connect__modal_search_box{
+	position: relative;
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.pactic_connect__modal_search_field {
+	height: 40px;
+	display: inline-block;
+	padding-right: 55px !important;
+	padding-left: 55px !important;
+	width: 20% !important;
+	outline: none !important;
+}
+
+.pactic_connect__modal_search_icon {
+	position: absolute;
+	display: inline-block;
+	background: #fff;
+	border-radius: 30px;
+	height: 20px;
+	width: 20px;
+	border: 3px solid #888;
+	margin-top: 7px;
+	margin-left: 10px;
+}
+
+.pactic_connect__modal_search_icon::after {
+	content: "";
+	height: 3px;
+	width: 11px;
+	background: #888;
+	position: absolute;
+	top: 17px;
+	left: 12px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+}
+
+.pactic_connect__modal_search_remove {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 22px;
+	margin-top: 8px;
+	background: rgba(0, 0, 0, 0.3);
+	color: #fff;
+	font-size: 20px;
+	display: none;
+	text-decoration: none !important;
+	margin-left: -40px;
+	cursor: pointer;
+}
+
+.pactic_connect__modal_search_remove.show {
+	display: inline-block;
+}
+
+.pactic_connect__modal_search_remove::before {
+	content: '\00d7';
+}
+
+.pactic_connect__modal_search_field_button {
+	margin-left: 20px !important;
+	height: 40px !important;
+	line-height: 40px !important;
+	padding-top: 0px !important;
+	padding-right: 10px !important;
+	padding-left: 10px !important;
+	padding-bottom: 0px !important;
+	width: 100px !important;
+	
+	background: #330c80;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.pactic_connect__modal_search_field_button:hover {
+	background: #4616a4;
+}
+
+body.pactic_connect_modal_opened{
+	overflow: hidden;
+}
+
+.pactic_connect__modal * {
+	box-sizing: border-box !important;
+}
+
+.pactic_connect__parcel_point_list {
+	list-style-type: none;
+	margin: 20px;
+	height: calc( 100% - 40px );
+	position: relative;
+	overflow-x: auto;
+	overflow-y: unset;
+	border: 1px solid #ccc;
+	display: grid;
+	grid-template-rows: auto 1fr;
+	padding-inline-start: 0px !important;
+}
+
+.pactic_connect__parcel_point_list_item_name {
+	font-weight: bold;
+}
+
+
+.pactic_connect__parcel_point_list_item {
+	padding: 10px;
+	transition: all ease 0.2s;
+	cursor: pointer;
+	display:none;
+	border-bottom: 1px solid #eee;
+}
+
+.pactic_connect__parcel_point_list_item.show {
+	display:block;
+}
+
+.pactic_connect__parcel_point_list_item.sticky {
+	top: 0;
+	position: sticky;
+}
+
+.pactic_connect__parcel_point_list_item:last-child {
+	border-bottom: none;
+} 
+
+.pactic_connect__parcel_point_list_item.show:nth-child(2n) {
+	background: #f9f9f9;
+}
+
+.pactic_connect__parcel_point_list_item:hover {
+	background: #f3f8fb;
+}
+
+.pactic_connect__parcel_point_list_item.selected {
+	background: #330c80 !important;
+	color: #fff;
+}
+
+.pactic_connect__parcel_point_list_item.selected .pactic_connect__select_parcel_point_button {
+	display:none;
+}
+
+.pactic_connect__additional_data_opening_hours ul {
+	list-style: none;
+	margin: 0px;
+}
+
+.pactic_connect__additional_data_opening_hours_title {
+	font-weight: bold;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.pactic_connect__additional_data_opening_hours li {
+	display: inline-block;
+}
+
+.pactic_connect__additional_data_opening_hours li {
+	display: block;
+}
+
+.pactic_connect__additional_data_opening_hours_content li span:first-child {
+	width: 120px !important;
+	display: inline-block;
+}
+
+.pactic_connect__additional_data_opening_hours_content {
+	display: none;
+	transition: all ease 0.2s;
+}
+
+.pactic_connect__additional_data_opening_hours_content.open {
+	display: block;
+}
+
+.pactic_connect__parcel_point_list_item_left {
+	width: calc( 100% - 110px );
+	display: inline-block;
+	clear: both;
+	margin-right: 10px; 
+}
+
+.pactic_connect__parcel_point_list_item_right {
+	float: right;
+	width: 100px;
+}
+
+.pactic_connect__select_parcel_point {
+	background: #330c80;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
+
+.pactic_connect__select_parcel_point_button {
+	background: #330c80;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 3px;
+	line-height: 35px;
+	font-weight: bold;
+}
+
+.pactic_connect__select_parcel_point_button:hover {
+	background: #4616a4;
+} 
+
+.pactic_connect__selected_parcel_point_info {
+	margin-bottom: 10px;
+}
+
+.pactic_connect__selected_parcel_point_name {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.pactic_connect__selected_parcel_point_address {
+	margin-bottom: 5px;
+}
+
+.pactic_connect__modal_open_button {
+	background: #330c80;
+	padding: 4px 8px;
+	border-radius: 3px;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	border: none;
+}
+
+.pactic_connect__modal_open_button:hover {
+	background: #5b3c99;
+}
+
+#pactic_connect__parcel_point_map {
+	width: 100%;
+	height: 100%;
+}
+
+.pactic_connect__infowindow_title {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.pactic_connect__infowindow_address {
+	text-align: center;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.pactic_connect__infowindow {
+	color: #1f2457;
+	max-width: 300px;
+}
+
+.pactic_connect__modal.map .pactic_connect__parcel_point_list {
+	margin: 0px;
+	height: 100%;
+	border: none;
+}
+
+.pactic_connect__modal_middle_left {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	background: #fff;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: calc( 100% );
+	width: 350px;
+	box-shadow: 5px 0 10px 0 rgba(0, 0, 0, 0.3);
+	z-index: 1001;
+	border-right: 1px solid #eee;
+}
+
+.pactic_connect__modal_middle_right {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	background: #fff;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: calc( 100% );
+	width: calc( 100% - 350px );
+	left: 350px;
+}
+
+.pactic_connect__modal.map .pactic_connect__parcel_point_list_item_left {
+	width: 100%;
+	display: block;
+	clear: both; 
+	margin-right: 0px;
+	margin-bottom: 10px;
+}
+
+.pactic_connect__modal.map .pactic_connect__parcel_point_list_item_right {
+	float: none;
+	width: 100%;
+}
+
+.pactic_connect__modal.dropdown .pactic_connect__modal_search_field {
+	width: 50% !important;
+}
+
+@media only screen and (max-width: 760px){
+	
+	.pactic_connect__modal_search_field {
+		width: calc( 100% - 120px ) !important;
+	}
+		
+	.pactic_connect__modal_middle_left {
+		display: none;
+	}
+	
+	.pactic_connect__modal_middle_right {
+		width: 100%;
+		left: 0px;
+	}
+
+}
+
+
+
+
+.wp-block-woocommerce-checkout .pactic_connect__parcel_point_info_row {
+	align-items: flex-start;
+	border: 1px solid hsla(0,0%,7%,.11);
+	border-radius: 4px;
+	display: flex;
+	font-size: 1em;
+	justify-content: flex-start;
+	margin: 0;
+	padding: 1em;
+}
+
+.wp-block-woocommerce-checkout .pactic_connect__parcel_point_info_row_title {
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.wp-block-woocommerce-checkout .pactic_connect__selected_parcel_point_name {
+	font-weight: normal;
+}
+
+.wp-block-woocommerce-checkout #pactic_connect__modal_open {
+	font-size: .875em;
+	margin: 0 0 0 auto;
+}
+
+.wp-block-woocommerce-checkout .pactic_connect__selected_parcel_point_info {
+	margin-bottom: 0px;
+}
+
+.wp-block-woocommerce-checkout .pactic_connect__selected_parcel_point_name {
+	margin-bottom: 2px;
+}
+
+.wp-block-woocommerce-checkout .pactic_connect__selected_parcel_point_address {
+	margin-bottom: 0px;
+}
+
+.wp-block-woocommerce-checkout .show_shipping{
+	opacity: 1 !important;
+	height: auto !important;
+	visibility: visible !important; 
+}
+
+.wp-block-woocommerce-checkout .hide_shipping{
+	height: 0 !important;
+	opacity: 0 !important;
+	visibility: hidden !important;
+}
+
+.wp-block-woocommerce-checkout .hide_shipping_fields .wc-block-components-shipping-address{
+	display: none !important;
+} 

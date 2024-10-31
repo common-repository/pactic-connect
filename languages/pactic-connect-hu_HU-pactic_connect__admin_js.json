@@ -1,0 +1,318 @@
+{
+   "domain": "pactic-connect",
+   "locale_data": {
+      "pactic-connect": {
+         "": {
+            "domain": "pactic-connect",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
+            "lang": "hu_HU"
+         },
+         "Pactic home delivery": [
+            "Pactic házhozszállítás"
+         ],
+         "Title": [
+            "Cím"
+         ],
+         "The name customers see at the checkout.": [
+            "Az ügyfeleid által látott név a checkout oldalon"
+         ],
+         "Tax status": [
+            "Adójogi státusz"
+         ],
+         "Taxable": [
+            "Adóköteles"
+         ],
+         "Default shipping cost": [
+            "Alapértelmezett szállítási költség"
+         ],
+         "Shipping cost": [
+            "Szállítási költség"
+         ],
+         "Service": [
+            "Szolgáltatás"
+         ],
+         "Detailed pricing": [
+            "Részletes árképzés"
+         ],
+         "Open detailed pricing settings": [
+            "Részletes árképzési beállítások megnyitása"
+         ],
+         "Cash on delivery fee": [
+            "Utánvét költsége"
+         ],
+         "Pactic parcel point": [
+            "Pactic csomagpont"
+         ],
+         "%1$sThank you for using Pactic Connect!%2$s %3$sGo to the settings page and enter your details.%4$s": [
+            "%1$sKöszönjük, hogy a Pactic Connectet választottad!%2$s %3$sMenj a beállítás oldalra és add meg a részleteket!%4$s"
+         ],
+         "%1$sPactic Connect is currently inactive!%2$s %3$sPlease install or activate Woocommerce to use Pactic Connect!%4$s": [
+            "%1$sA Pactic Connect jelenleg inaktív!%2$s %3$sKérjük telepítsd vagy aktiváld a WooCommerce-t a Pactic Connect használatához!%4$s"
+         ],
+         "Monday": [
+            "Hétfő"
+         ],
+         "Tuesday": [
+            "Kedd"
+         ],
+         "Wednesday": [
+            "Szerda"
+         ],
+         "Thursday": [
+            "Csütörtök"
+         ],
+         "Friday": [
+            "Péntek"
+         ],
+         "Saturday": [
+            "Szombat"
+         ],
+         "Sunday": [
+            "Vasárnap"
+         ],
+         "Order value": [
+            "Rendelés értéke"
+         ],
+         "Order weight": [
+            "Rendelés súlya"
+         ],
+         "Smaller than": [
+            "Kisebb mint"
+         ],
+         "Greater than": [
+            "Nagyobb mint"
+         ],
+         "Equal or smaller than": [
+            "Kisebb vagy egyenlő mint"
+         ],
+         "Equal or greater than": [
+            "Nagyobb vagy egyenlő mint"
+         ],
+         "Every four hours (Pactic Connect)": [
+            "4 óránként (Pactic Connect)"
+         ],
+         "Once a day (Pactic Connect)": [
+            "Naponta (Pactic Connect)"
+         ],
+         "Settings": [
+            "Beállítások"
+         ],
+         "Pactic Connect": [
+            "Pactic Connect"
+         ],
+         "Pactic Connect settings": [
+            "Pactic Connect beállítások"
+         ],
+         "Enable / Disable": [
+            "Bekapcsolás/Kikapcsolás"
+         ],
+         "Pactic Connect plugin": [
+            "Pactic Connect plugin"
+         ],
+         "Home delivery settings": [
+            "Házhozszállítás szolgáltatások beállításai"
+         ],
+         "Services": [
+            "Szolgáltatások"
+         ],
+         "Parcel point settings": [
+            "Csomagpontos szolgáltatások beállításai"
+         ],
+         "Display": [
+            "Megjelenítés"
+         ],
+         "Dropdown": [
+            "Lista"
+         ],
+         "Map": [
+            "Térkép"
+         ],
+         "If you choose the map view, you need a Google Map Api key!": [
+            "Térképes megjelenítés esetén Google Map API kulcsra lesz szükséged!"
+         ],
+         "Google Map Api Key": [
+            "Google Map Api Key"
+         ],
+         "https://console.cloud.google.com: Create credentials, and enable Maps JavaScript API.": [
+            "https://console.cloud.google.com: Regisztrálj és kapcsold be a Maps JavaScript API-t."
+         ],
+         "Cash on delivery payment": [
+            "Utánvétes fizetés"
+         ],
+         "Additional COD payment methods": [
+            "További utánvétes fizetési módok"
+         ],
+         "The extension automatically selects the default COD payment method:": [
+            "A plugin automatikusan kiválasztja az alapértelemezett utánvétes fizetési módot:"
+         ],
+         "If additional payment methods are considered cash on delivery in your online store, you can set them up here.": [
+            "Ha több fizetési módnál is opció az utánvétes fizetés, akkor azokat itt tudod megadni."
+         ],
+         "Synchronization": [
+            "Szinkronizáció"
+         ],
+         "Country codes": [
+            "Országkódok"
+         ],
+         "Parcel points": [
+            "Csomagpontok"
+         ],
+         "Debug": [
+            "Debug"
+         ],
+         "Delete stored data": [
+            "Tárolt adatok törlése"
+         ],
+         "Please select a parcel point or choose a different shipping method.": [
+            "Kérjük válassz egy csomagpontot vagy válassz egy másik szállítási módot!"
+         ],
+         "Opening hours": [
+            "Nyitvatartás"
+         ],
+         "Pick up here": [
+            "Átvétel itt"
+         ],
+         "Cím vagy hely keresése...": [
+            "Cím vagy hely keresése..."
+         ],
+         "Search": [
+            "Keresés"
+         ],
+         "Pickup location": [
+            "Átvételi hely"
+         ],
+         "Choosing a parcel point": [
+            "Csomagpont kiválasztása"
+         ],
+         "Change parcel point": [
+            "Csomagpont megváltoztatása"
+         ],
+         "Enable/Disable": [
+            "Bekapcsolás/kikapcsolás"
+         ],
+         "Name": [
+            "Név"
+         ],
+         "idCarrier": [
+            "Szállító kódja"
+         ],
+         "idService ": [
+            "Szolgáltatás kódja"
+         ],
+         "Remove": [
+            "Törlés"
+         ],
+         "Add a new service": [
+            "Új szolgáltatás hozzáadása"
+         ],
+         "Country": [
+            "Ország"
+         ],
+         "Sync ": [
+            "Szinkron"
+         ],
+         "Last sync date": [
+            "Utoljára szinkronizálva"
+         ],
+         "Last sync status": [
+            "Utolsó szinkronizáció állapota:"
+         ],
+         "Sync": [
+            "Szinkron"
+         ],
+         "View": [
+            "Megnéz"
+         ],
+         "Failed": [
+            "Sikertelen"
+         ],
+         "Success": [
+            "Sikeres"
+         ],
+         "Delete all settings and files": [
+            "Minden beállítás és fájl törlése"
+         ],
+         "Delete related shipping methods": [
+            "Kapcsolódó szállítási módok törlése"
+         ],
+         "Delete related log files": [
+            "Kapcsolódó logok törlése"
+         ],
+         "Delete parcel point files": [
+            "Csomagpontlisták törlése"
+         ],
+         "Pricing": [
+            "Árazás"
+         ],
+         "In case of conflict prices, choose:": [
+            "Árak ütközése esetén válassza:"
+         ],
+         "Cheapest": [
+            "Olcsóbb"
+         ],
+         "Most expensive": [
+            "Drágább"
+         ],
+         "Conditions": [
+            "Feltételek"
+         ],
+         "Apply": [
+            "Alkalmaz"
+         ],
+         "Shipping cost(net)": [
+            "Szállítás nettó költsége"
+         ],
+         "net cost if": [
+            "nettó ár ha"
+         ],
+         "value": [
+            "érték"
+         ],
+         "weight": [
+            "súly"
+         ],
+         "kg": [
+            "kg"
+         ],
+         "There are no settings.": [
+            "Nincsenek megadva beállítások."
+         ],
+         "Add a new row": [
+            "Új sor hozzáadása"
+         ],
+         "COD pricing": [
+            "Utánvét árazása"
+         ],
+         "Price ranges": [
+            "Ártartományok"
+         ],
+         "net cost if order value equal or greater then": [
+            "nettó ár ha a rendelés értéke nagyobb vagy egyenlő mint"
+         ],
+         "Order value from": [
+            "Rendelés értéke ettől"
+         ],
+         "and smaller then": [
+            "és kisebb mint"
+         ],
+         "Order value to": [
+            "Rendelés értéke eddig"
+         ],
+         "Save": [
+            "Mentés"
+         ],
+         "Enabled": [
+            "Bekapcsolva"
+         ],
+         "Disabled": [
+            "Kikapcsolva"
+         ],
+         "Last automatic sync date": [
+            "Utolsó automatikus szinkronizációs ideje"
+         ],
+         "Tax status\u0004Not taxable": [
+            "Nem adóköteles"
+         ]
+      }
+   }
+}

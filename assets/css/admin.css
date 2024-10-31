@@ -1,0 +1,408 @@
+.pactic_connect__home_delivery_sample_list_table {
+	display: none;
+}
+
+.pactic_connect__remove_home_delivery_button {
+    cursor: pointer;
+}
+
+.pactic_connect__add_home_delivery_button {
+	margin-top: 10px;
+    cursor: pointer;
+}
+
+.pactic_connect__home_delivery_list_table thead th{
+    padding: 15px 10px;
+}
+
+.pactic_connect__parcel_point_sample_list_table {
+	display: none;
+}
+
+.pactic_connect__remove_parcel_point_button {
+    cursor: pointer;
+}
+
+.pactic_connect__add_parcel_point_button {
+	margin-top: 10px;
+    cursor: pointer;
+}
+
+.pactic_connect__parcel_point_list_table thead th{
+    padding: 15px 10px;
+}
+ 
+.pactic_connect__last_sync_status_green {
+	color: green;
+}
+
+.pactic_connect__last_sync_status_red {
+	color: red;
+}
+
+@-webkit-keyframes pactic_connect_rotating {
+	from {
+		-webkit-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes pactic_connect_rotating {
+	from {
+		-ms-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	to {
+		-ms-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+.pactic_connect__sync_in_progress .dashicons {
+	-webkit-animation: pactic_connect_rotating 2s linear infinite;
+	-moz-animation: pactic_connect_rotating 2s linear infinite;
+	-ms-animation: pactic_connect_rotating 2s linear infinite;
+	-o-animation: pactic_connect_rotating 2s linear infinite;
+	animation: pactic_connect_rotating 2s linear infinite;
+}
+
+.pactic_connect__detailed_pricing_modal_bg {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.4);
+	z-index: 100001;
+	opacity: 0;
+	visibility: hidden;
+	transition: all ease 0.3s;
+}
+
+.pactic_connect__detailed_pricing_modal_bg.opened {
+	visibility: visible;
+	opacity: 1;
+}
+
+.pactic_connect__detailed_pricing_modal {
+	position: fixed;
+	z-index: 100151;
+	left: 30px;
+	top: 30px;
+	bottom: 30px;
+	right: 30px;
+	background: #fff;
+	border-radius: 0px;
+	overflow: hidden;
+	display: flex !important;
+	visibility: hidden;
+	opacity: 0;
+	transition: all ease 0.3s;
+	left: calc( ( 100% - 75% ) / 2 );
+	right: calc( ( 100% - 75% ) / 2 );
+}
+
+.pactic_connect__detailed_pricing_modal.opened {
+	visibility: visible;
+	opacity: 1; 
+	display: flex !important;
+}
+ 
+.admin-bar .pactic_connect__detailed_pricing_modal {
+	top: 62px;
+}
+
+.pactic_connect__detailed_pricing_modal_top {
+	position: absolute;
+	z-index: 100000;
+	display: block;
+	height: 26px;
+	width: calc( 100% - 40px );
+	background: #fcfcfc;
+	border-bottom: 1px solid #ddd;
+	padding: 14px 20px;
+	line-height: 26px;
+}
+
+.pactic_connect__detailed_pricing_modal_middle {
+	position: absolute;
+	top: 54px;
+	bottom: 59px;
+	background: #f8f8f8;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: calc( 100% - 113px );
+}
+
+.pactic_connect__detailed_pricing_modal_bottom {
+	position: absolute;
+	z-index: 100000;
+	display: block;
+	height: 31px;
+	bottom: 0px;
+	border-top: 1px solid #dfdfdf;
+	box-shadow: 0 -4px 4px -4px rgba(0,0,0,.1);
+	width: calc( 100% - 40px );
+	background: #fcfcfc;
+	border-bottom: 1px solid #ddd;
+	padding: 14px 20px;
+	line-height: 31px;
+	text-align:right;
+}
+
+
+body.pactic_connect__detailed_pricing_modal_opened{
+	overflow: hidden;
+}
+
+.pactic_connect__detailed_pricing_modal_close {
+	cursor: pointer;
+	color: #777;
+	height: 54px;
+	width: 54px;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	border: 0;
+	border-left: 1px solid #ddd;
+	background-color: transparent;
+	transition: color .1s ease-in-out,background .1s ease-in-out;
+}
+
+.pactic_connect__detailed_pricing_modal_close::before {
+	font: normal 22px/50px dashicons !important;
+	color: #666;
+	display: block;
+	content: "\f335";
+	font-weight: 300;
+	margin-top: 2px;
+}
+
+.pactic_connect__detailed_pricing_modal_close:hover {
+	background: #ddd;
+	border-color: #ccc;
+	color: #000;
+}
+
+.pactic_connect__shipping_pricing_table td {
+	text-align: center;
+}
+
+.pactic_connect__shipping_pricing_sample_table {
+	display: none;
+}
+
+.pactic_connect__remove_shipping_prices_button {
+    cursor: pointer;
+}
+
+.pactic_connect__add_shipping_prices_button {
+	margin-top: 10px;
+    cursor: pointer;
+}
+
+
+body.pactic_connect_modal_opened{
+	overflow: hidden;
+}
+
+.jq-toast-wrap {
+	z-index: 101051 !important;
+}
+
+
+.pactic_connect__detailed_pricing_logic {
+
+	margin: 14px 0px;
+}
+
+.pactic_connect__spinner {
+	display: none;
+	background-image: url('/wp-admin/images/loading.gif');
+	height: 32px;
+	width: 32px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.pactic_connect__spinner.show {
+	display: inline-block;
+}
+
+.pactic_connect__cost_box input {
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.pactic_connect__cost_box span {
+	height: 28px;
+	background: rgb(233, 233, 237);
+	border-radius: 0 5px 5px 0;
+	font-size: 14px;
+	border: 1px solid #8c8f94;
+	margin-left: -2px;
+	display: inline-block;
+	vertical-align: top;
+	line-height: 28px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.button.button-secondary.pactic_connect__add_shipping_prices_button {
+	margin-top: 14px;
+}
+
+.button.button-secondary.pactic_connect__add_shipping_prices_button .dashicons  {
+	vertical-align: text-top;
+}
+
+.button.button-secondary.pactic_connect__remove_shipping_prices_button .dashicons  {
+	vertical-align: text-top;
+}
+
+.pactic_connect__shipping_pricing_table tr td:nth-child(2) {
+	line-height: 30px;
+}
+
+.pactic_connect__shipping_pricing_table tr td:nth-child(4) {
+	line-height: 30px;
+}
+
+.pactic_connect__detailed_pricing_modal_open  {
+	display: inline-block !important;
+	min-width: auto !important;
+	width: auto !important;
+}
+
+.pactic_connect__detailed_pricing_block {
+	border: 1px solid #c3c4c7;
+	padding: 14px;
+	margin: 14px;
+	background: #fff;
+}
+
+.pactic_connect__detailed_pricing_block_header {
+	margin-top: 0px;
+	margin-bottom: 14px;
+	background: #330c80;
+	padding: 14px;
+	color: #fff;
+	margin-top: -14px;
+	margin-left: -14px;
+	margin-right: -14px;
+}
+
+.pactic_connect__detailed_pricing_block:first-of-type {
+	margin-bottom: 30px;
+}
+
+.pactic_connect__shipping_cod_pricing_table td {
+	text-align: center;
+}
+
+.pactic_connect__shipping_cod_pricing_sample_table {
+	display: none;
+}
+ 
+.pactic_connect__remove_shipping_cod_prices_button {
+    cursor: pointer;
+}
+
+.pactic_connect__add_shipping_cod_prices_button {
+	margin-top: 10px;
+    cursor: pointer;
+}
+
+.button.button-secondary.pactic_connect__add_shipping_cod_prices_button {
+	margin-top: 14px;
+}
+
+.button.button-secondary.pactic_connect__add_shipping_cod_prices_button .dashicons  {
+	vertical-align: text-top;
+}
+
+.button.button-secondary.pactic_connect__remove_shipping_cod_prices_button .dashicons  {
+	vertical-align: text-top;
+}
+
+.pactic_connect__shipping_cod_pricing_table tr td:nth-child(2) {
+	line-height: 30px;
+}
+
+.pactic_connect__shipping_cod_pricing_table tr td:nth-child(4) {
+	line-height: 30px;
+}
+
+.pactic_connect__shipping_cod_pricing_table tr td:nth-child(6) {
+	line-height: 30px;
+}
+
+.shipping_cod_price_empty_setting_row.show{
+	display:table-row;
+}
+
+.shipping_cod_price_empty_setting_row{
+	display:none;
+	background: #f6f7f7;
+}
+
+.shipping_price_empty_setting_row.show{
+	display:table-row;
+}
+
+.shipping_price_empty_setting_row{
+	display:none;
+}
+
+.pactic_connect__detailed_pricing_modal_top h2 {
+	margin: 0px;
+}
+
+.pactic_connect__shipping_pricing_table thead th {
+	font-weight: bold !important;
+}
+
+.pactic_connect__shipping_cod_pricing_table thead th {
+	font-weight: bold !important;
+}
+
+.pactic_connect__deletion_button {
+	display: inline-block !important;
+	margin-right: 10px !important;
+}
+
+.pactic_connect__deletion_button.pactic_connect__deletion_in_progress .dashicons {
+	opacity:1px;
+	-webkit-animation: pactic_connect_rotating 2s linear infinite;
+	-moz-animation: pactic_connect_rotating 2s linear infinite;
+	-ms-animation: pactic_connect_rotating 2s linear infinite;
+	-o-animation: pactic_connect_rotating 2s linear infinite;
+	animation: pactic_connect_rotating 2s linear infinite;
+}
+
+.pactic_connect__deletion_button .dashicons {
+	vertical-align: middle;
+}
+
+.pactic_connect__deletion_button span {
+	vertical-align: middle;
+}
+
+.pactic_connect__cost_box{
+	white-space: nowrap;
+} 

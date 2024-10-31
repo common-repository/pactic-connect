@@ -1,0 +1,481 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pactic Connect\n"
+"POT-Creation-Date: 2024-05-17 11:22+0100\n"
+"PO-Revision-Date: 2024-05-17 11:22+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-pactic-connect-home-delivery.php:9
+#: includes/class-pactic-connect-home-delivery.php:10
+#: includes/class-pactic-connect-home-delivery.php:44
+msgid "Pactic home delivery"
+msgstr "Pactic házhozszállítás"
+
+#: includes/class-pactic-connect-home-delivery.php:41
+#: includes/class-pactic-connect-parcel-point.php:40
+msgid "Title"
+msgstr "Cím"
+
+#: includes/class-pactic-connect-home-delivery.php:43
+#: includes/class-pactic-connect-parcel-point.php:42
+msgid "The name customers see at the checkout."
+msgstr "Az ügyfeleid által látott név a checkout oldalon"
+
+#: includes/class-pactic-connect-home-delivery.php:49
+#: includes/class-pactic-connect-parcel-point.php:48
+msgid "Tax status"
+msgstr "Adójogi státusz"
+
+#: includes/class-pactic-connect-home-delivery.php:54
+#: includes/class-pactic-connect-parcel-point.php:53
+msgid "Taxable"
+msgstr "Adóköteles"
+
+#: includes/class-pactic-connect-home-delivery.php:55
+#: includes/class-pactic-connect-parcel-point.php:54
+msgctxt "Tax status"
+msgid "Not taxable"
+msgstr "Nem adóköteles"
+
+#: includes/class-pactic-connect-home-delivery.php:60
+#: includes/class-pactic-connect-parcel-point.php:59
+msgid "Default shipping cost"
+msgstr "Alapértelmezett szállítási költség"
+
+#: includes/class-pactic-connect-home-delivery.php:62
+#: includes/class-pactic-connect-home-delivery.php:149
+#: includes/class-pactic-connect-home-delivery.php:406
+#: includes/class-pactic-connect-home-delivery.php:411
+#: includes/class-pactic-connect-parcel-point.php:61
+#: includes/class-pactic-connect-parcel-point.php:152
+#: includes/class-pactic-connect-parcel-point.php:411
+#: includes/class-pactic-connect-parcel-point.php:416
+msgid "Shipping cost"
+msgstr "Szállítási költség"
+
+#: includes/class-pactic-connect-home-delivery.php:68
+#: includes/class-pactic-connect-parcel-point.php:67
+msgid "Service"
+msgstr "Szolgáltatás"
+
+#: includes/class-pactic-connect-home-delivery.php:76
+#: includes/class-pactic-connect-parcel-point.php:75 pactic-connect.php:2163
+msgid "Detailed pricing"
+msgstr "Részletes árképzés"
+
+#: includes/class-pactic-connect-home-delivery.php:80
+#: includes/class-pactic-connect-parcel-point.php:79
+msgid "Open detailed pricing settings"
+msgstr "Részletes árképzési beállítások megnyitása"
+
+#: includes/class-pactic-connect-home-delivery.php:149
+#: includes/class-pactic-connect-home-delivery.php:332
+#: includes/class-pactic-connect-home-delivery.php:337
+#: includes/class-pactic-connect-parcel-point.php:152
+#: includes/class-pactic-connect-parcel-point.php:337
+#: includes/class-pactic-connect-parcel-point.php:342
+msgid "Cash on delivery fee"
+msgstr "Utánvét költsége"
+
+#: includes/class-pactic-connect-parcel-point.php:9
+#: includes/class-pactic-connect-parcel-point.php:10
+#: includes/class-pactic-connect-parcel-point.php:43
+msgid "Pactic parcel point"
+msgstr "Pactic csomagpont"
+
+#: pactic-connect.php:39
+#, php-format
+msgid ""
+"%1$sThank you for using Pactic Connect!%2$s %3$sGo to the settings page and "
+"enter your details.%4$s"
+msgstr ""
+"%1$sKöszönjük, hogy a Pactic Connectet választottad!%2$s %3$sMenj a "
+"beállítás oldalra és add meg a részleteket!%4$s"
+
+#: pactic-connect.php:69
+#, php-format
+msgid ""
+"%1$sPactic Connect is currently inactive!%2$s %3$sPlease install or activate "
+"Woocommerce to use Pactic Connect!%4$s"
+msgstr ""
+"%1$sA Pactic Connect jelenleg inaktív!%2$s %3$sKérjük telepítsd vagy "
+"aktiváld a WooCommerce-t a Pactic Connect használatához!%4$s"
+
+#: pactic-connect.php:120
+msgid "Monday"
+msgstr "Hétfő"
+
+#: pactic-connect.php:121
+msgid "Tuesday"
+msgstr "Kedd"
+
+#: pactic-connect.php:122
+msgid "Wednesday"
+msgstr "Szerda"
+
+#: pactic-connect.php:123
+msgid "Thursday"
+msgstr "Csütörtök"
+
+#: pactic-connect.php:124
+msgid "Friday"
+msgstr "Péntek"
+
+#: pactic-connect.php:125
+msgid "Saturday"
+msgstr "Szombat"
+
+#: pactic-connect.php:126
+msgid "Sunday"
+msgstr "Vasárnap"
+
+#: pactic-connect.php:130
+msgid "Order value"
+msgstr "Rendelés értéke"
+
+#: pactic-connect.php:131
+msgid "Order weight"
+msgstr "Rendelés súlya"
+
+#: pactic-connect.php:135
+msgid "Smaller than"
+msgstr "Kisebb mint"
+
+#: pactic-connect.php:136
+msgid "Greater than"
+msgstr "Nagyobb mint"
+
+#: pactic-connect.php:137
+msgid "Equal or smaller than"
+msgstr "Kisebb vagy egyenlő mint"
+
+#: pactic-connect.php:138
+msgid "Equal or greater than"
+msgstr "Nagyobb vagy egyenlő mint"
+
+#: pactic-connect.php:227
+msgid "Every four hours (Pactic Connect)"
+msgstr "4 óránként (Pactic Connect)"
+
+#: pactic-connect.php:232
+msgid "Once a day (Pactic Connect)"
+msgstr "Naponta (Pactic Connect)"
+
+#: pactic-connect.php:255
+msgid "Settings"
+msgstr "Beállítások"
+
+#: pactic-connect.php:361
+msgid "Pactic Connect"
+msgstr "Pactic Connect"
+
+#: pactic-connect.php:387
+msgid "Pactic Connect settings"
+msgstr "Pactic Connect beállítások"
+
+#: pactic-connect.php:392 pactic-connect.php:497
+msgid "Enable / Disable"
+msgstr "Bekapcsolás/Kikapcsolás"
+
+#: pactic-connect.php:395
+msgid "Pactic Connect plugin"
+msgstr "Pactic Connect plugin"
+
+#: pactic-connect.php:405
+msgid "Home delivery settings"
+msgstr "Házhozszállítás szolgáltatások beállításai"
+
+#: pactic-connect.php:410 pactic-connect.php:424
+msgid "Services"
+msgstr "Szolgáltatások"
+
+#: pactic-connect.php:419
+msgid "Parcel point settings"
+msgstr "Csomagpontos szolgáltatások beállításai"
+
+#: pactic-connect.php:429
+msgid "Display"
+msgstr "Megjelenítés"
+
+#: pactic-connect.php:433
+msgid "Dropdown"
+msgstr "Lista"
+
+#: pactic-connect.php:434
+msgid "Map"
+msgstr "Térkép"
+
+#: pactic-connect.php:438
+msgid "If you choose the map view, you need a Google Map Api key!"
+msgstr "Térképes megjelenítés esetén Google Map API kulcsra lesz szükséged!"
+
+#: pactic-connect.php:442
+msgid "Google Map Api Key"
+msgstr "Google Map Api Key"
+
+#: pactic-connect.php:447
+msgid ""
+"https://console.cloud.google.com: Create credentials, and enable Maps "
+"JavaScript API."
+msgstr ""
+"https://console.cloud.google.com: Regisztrálj és kapcsold be a Maps "
+"JavaScript API-t."
+
+#: pactic-connect.php:455
+msgid "Cash on delivery payment"
+msgstr "Utánvétes fizetés"
+
+#: pactic-connect.php:460
+msgid "Additional COD payment methods"
+msgstr "További utánvétes fizetési módok"
+
+#: pactic-connect.php:463
+msgid "The extension automatically selects the default COD payment method:"
+msgstr ""
+"A plugin automatikusan kiválasztja az alapértelemezett utánvétes fizetési "
+"módot:"
+
+#: pactic-connect.php:464
+msgid ""
+"If additional payment methods are considered cash on delivery in your online "
+"store, you can set them up here."
+msgstr ""
+"Ha több fizetési módnál is opció az utánvétes fizetés, akkor azokat itt "
+"tudod megadni."
+
+#: pactic-connect.php:473
+msgid "Synchronization"
+msgstr "Szinkronizáció"
+
+#: pactic-connect.php:478
+msgid "Country codes"
+msgstr "Országkódok"
+
+#: pactic-connect.php:483
+msgid "Parcel points"
+msgstr "Csomagpontok"
+
+#: pactic-connect.php:492
+msgid "Debug"
+msgstr "Debug"
+
+#: pactic-connect.php:506
+msgid "Delete stored data"
+msgstr "Tárolt adatok törlése"
+
+#: pactic-connect.php:579
+msgid "Please select a parcel point or choose a different shipping method."
+msgstr ""
+"Kérjük válassz egy csomagpontot vagy válassz egy másik szállítási módot!"
+
+#: pactic-connect.php:781
+msgid "Opening hours"
+msgstr "Nyitvatartás"
+
+#: pactic-connect.php:799
+msgid "Pick up here"
+msgstr "Átvétel itt"
+
+#: pactic-connect.php:867
+msgid "Cím vagy hely keresése..."
+msgstr "Cím vagy hely keresése..."
+
+#: pactic-connect.php:872
+msgid "Search"
+msgstr "Keresés"
+
+#: pactic-connect.php:958 pactic-connect.php:1029
+msgid "Pickup location"
+msgstr "Átvételi hely"
+
+#: pactic-connect.php:966 pactic-connect.php:997 pactic-connect.php:1060
+#: pactic-connect.php:1076
+msgid "Choosing a parcel point"
+msgstr "Csomagpont kiválasztása"
+
+#: pactic-connect.php:990 pactic-connect.php:1069
+msgid "Change parcel point"
+msgstr "Csomagpont megváltoztatása"
+
+#: pactic-connect.php:1712 pactic-connect.php:1837
+msgid "Enable/Disable"
+msgstr "Bekapcsolás/kikapcsolás"
+
+#: pactic-connect.php:1713 pactic-connect.php:1838
+msgid "Name"
+msgstr "Név"
+
+#: pactic-connect.php:1714 pactic-connect.php:1840
+msgid "idCarrier"
+msgstr "Szállító kódja"
+
+#: pactic-connect.php:1715 pactic-connect.php:1841
+msgid "idService "
+msgstr "Szolgáltatás kódja"
+
+#: pactic-connect.php:1716 pactic-connect.php:1758 pactic-connect.php:1795
+#: pactic-connect.php:1845 pactic-connect.php:1959 pactic-connect.php:2016
+#: pactic-connect.php:2294 pactic-connect.php:2413 pactic-connect.php:2510
+#: pactic-connect.php:2571
+msgid "Remove"
+msgstr "Törlés"
+
+#: pactic-connect.php:1807 pactic-connect.php:2028
+msgid "Add a new service"
+msgstr "Új szolgáltatás hozzáadása"
+
+#: pactic-connect.php:1839
+msgid "Country"
+msgstr "Ország"
+
+#: pactic-connect.php:1842
+msgid "Sync "
+msgstr "Szinkron"
+
+#: pactic-connect.php:1843
+msgid "Last sync date"
+msgstr "Utoljára szinkronizálva"
+
+#: pactic-connect.php:1844 pactic-connect.php:2928
+msgid "Last sync status"
+msgstr "Utolsó szinkronizáció állapota:"
+
+#: pactic-connect.php:1905 pactic-connect.php:1914
+msgid "Sync"
+msgstr "Szinkron"
+
+#: pactic-connect.php:1930
+msgid "View"
+msgstr "Megnéz"
+
+#: pactic-connect.php:1947
+msgid "Failed"
+msgstr "Sikertelen"
+
+#: pactic-connect.php:1950
+msgid "Success"
+msgstr "Sikeres"
+
+#: pactic-connect.php:2116 pactic-connect.php:2117
+msgid "Delete all settings and files"
+msgstr "Minden beállítás és fájl törlése"
+
+#: pactic-connect.php:2120 pactic-connect.php:2121
+msgid "Delete related shipping methods"
+msgstr "Kapcsolódó szállítási módok törlése"
+
+#: pactic-connect.php:2124 pactic-connect.php:2125
+msgid "Delete related log files"
+msgstr "Kapcsolódó logok törlése"
+
+#: pactic-connect.php:2128 pactic-connect.php:2129
+msgid "Delete parcel point files"
+msgstr "Csomagpontlisták törlése"
+
+#: pactic-connect.php:2179
+msgid "Pricing"
+msgstr "Árazás"
+
+#: pactic-connect.php:2185
+msgid "In case of conflict prices, choose:"
+msgstr "Árak ütközése esetén válassza:"
+
+#: pactic-connect.php:2189
+msgid "Cheapest"
+msgstr "Olcsóbb"
+
+#: pactic-connect.php:2190
+msgid "Most expensive"
+msgstr "Drágább"
+
+#: pactic-connect.php:2203
+msgid "Conditions"
+msgstr "Feltételek"
+
+#: pactic-connect.php:2231 pactic-connect.php:2372 pactic-connect.php:2458
+#: pactic-connect.php:2530
+msgid "Apply"
+msgstr "Alkalmaz"
+
+#: pactic-connect.php:2237 pactic-connect.php:2378 pactic-connect.php:2465
+#: pactic-connect.php:2536
+msgid "Shipping cost(net)"
+msgstr "Szállítás nettó költsége"
+
+#: pactic-connect.php:2245 pactic-connect.php:2474
+msgid "net cost if"
+msgstr "nettó ár ha"
+
+#: pactic-connect.php:2273 pactic-connect.php:2500
+msgid "value"
+msgstr "érték"
+
+#: pactic-connect.php:2276
+msgid "weight"
+msgstr "súly"
+
+#: pactic-connect.php:2285
+msgid "kg"
+msgstr "kg"
+
+#: pactic-connect.php:2309 pactic-connect.php:2428
+msgid "There are no settings."
+msgstr "Nincsenek megadva beállítások."
+
+#: pactic-connect.php:2320 pactic-connect.php:2439
+msgid "Add a new row"
+msgstr "Új sor hozzáadása"
+
+#: pactic-connect.php:2333
+msgid "COD pricing"
+msgstr "Utánvét árazása"
+
+#: pactic-connect.php:2344
+msgid "Price ranges"
+msgstr "Ártartományok"
+
+#: pactic-connect.php:2386 pactic-connect.php:2544
+msgid "net cost if order value equal or greater then"
+msgstr "nettó ár ha a rendelés értéke nagyobb vagy egyenlő mint"
+
+#: pactic-connect.php:2391 pactic-connect.php:2549
+msgid "Order value from"
+msgstr "Rendelés értéke ettől"
+
+#: pactic-connect.php:2399 pactic-connect.php:2557
+msgid "and smaller then"
+msgstr "és kisebb mint"
+
+#: pactic-connect.php:2404 pactic-connect.php:2562
+msgid "Order value to"
+msgstr "Rendelés értéke eddig"
+
+#: pactic-connect.php:2586
+msgid "Save"
+msgstr "Mentés"
+
+#: pactic-connect.php:2889
+msgid "Enabled"
+msgstr "Bekapcsolva"
+
+#: pactic-connect.php:2894
+msgid "Disabled"
+msgstr "Kikapcsolva"
+
+#: pactic-connect.php:2921 pactic-connect.php:2952
+msgid "Last automatic sync date"
+msgstr "Utolsó automatikus szinkronizációs ideje"
